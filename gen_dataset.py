@@ -2,7 +2,8 @@ import cv2,os
 import numpy as np
 import csv
 import glob
-
+#example
+#example2
 label = "Uninfected"
 dirList = glob.glob("cell_image/"+label+"/*.png")
 file = open("csv/dataset.csv","a")
